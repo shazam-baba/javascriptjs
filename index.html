@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <div class="container-1">
+        <h2>Challenge 1: Age in Days</h2>
+        <div class="flex-box-container-1">
+            <div>
+                <button class="btn btn-primary" onclick="ageInDays()" >Click me</button>
+            </div>
+            <div>
+                <button class="btn btn-danger" onclick="reset()" >Reset</button> 
+            </div>
+        </div>
+
+        <div class="flex-box-container-1">
+            <div id="flex-box-result"><h1>Answer : </h1></div>
+        </div>
+    </div>
+
+    <div class="container-2">
+        <h2>Challenge 2: Cat Generator</h2>
+        <div class="flex-box-container-1">
+            <div>
+                <button class="btn btn-success" id="cat-generator" onclick="generateCat()" >Generate Cat</button>
+            </div>
+        </div>
+
+        <div class="flex-box-container-2" id="flex-cat-gen" ></div>
+    </div>
+
+    <div class="container-1">
+        <h2>Challenge 3: Rock, Paper, Scissor</h2>
+        <div class="flex-box-rps" id="flex-box-rps-div">
+            <img id="rock" src="https://www.clipartkey.com/mpngs/m/22-225880_mountains-png-download-mountain-icon.png" height="150" width="150" alt="" onClick="rpsGame(this)">
+            <img id="paper" src="https://peypper.com/wp-content/uploads/2021/02/download-1-150x150.png" height="150" width="150" alt="" onClick="rpsGame(this)">
+            <img id="scissor" src="https://www.rawshorts.com/freeicons/wp-content/uploads/2017/01/black_beautypictscissor2_1484335056-1-150x150.png" height="150" width="150" alt="" onClick="rpsGame(this)">
+
+        </div>
+
+        
+    </div>
+
+    <script src = "static/js/script.js"></script>
+</body>
+</html>
